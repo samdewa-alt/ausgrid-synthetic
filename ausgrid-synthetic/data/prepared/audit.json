@@ -1,0 +1,61 @@
+{
+  "source_files": [
+    "Solar home 2010-2011.csv",
+    "Solar home 2011-2012.csv",
+    "Solar home 2012-2013.csv"
+  ],
+  "ever_cl_households": 139,
+  "years": [
+    {
+      "file": "Solar home 2010-2011.csv",
+      "rows": 269735,
+      "gc_days": 109500,
+      "gg_days": 109500,
+      "cl_days": 50735,
+      "paired_days": 109500,
+      "missing_cl_for_cl_households": 0,
+      "excluded_dst_after_cl": 600,
+      "excluded_other_quality_days": 0,
+      "usable_days": 108900
+    },
+    {
+      "file": "Solar home 2011-2012.csv",
+      "rows": 270304,
+      "gc_days": 109800,
+      "gg_days": 109800,
+      "cl_days": 50704,
+      "paired_days": 109800,
+      "missing_cl_for_cl_households": 170,
+      "excluded_dst_after_cl": 599,
+      "excluded_other_quality_days": 52,
+      "usable_days": 108979
+    },
+    {
+      "file": "Solar home 2012-2013.csv",
+      "rows": 268557,
+      "gc_days": 109419,
+      "gg_days": 109419,
+      "cl_days": 49719,
+      "paired_days": 109419,
+      "missing_cl_for_cl_households": 935,
+      "excluded_dst_after_cl": 598,
+      "excluded_other_quality_days": 283,
+      "usable_days": 107603
+    }
+  ],
+  "total_usable_days": 325482,
+  "split_households": {
+    "train": 180,
+    "val": 60,
+    "test": 60
+  },
+  "scale_kwh": [
+    1.350000023841858,
+    0.5809999704360962
+  ],
+  "measured_night_nonzero_gt_0p005_train": 47697,
+  "measured_night_gt_0p02_train": 0,
+  "measured_night_max_kwh_train": 0.013000000268220901,
+  "masked_slots_train": 4096073,
+  "seed": 2026
+}

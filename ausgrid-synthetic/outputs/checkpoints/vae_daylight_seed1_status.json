@@ -1,0 +1,9 @@
+{
+  "seed": 1,
+  "constrained": true,
+  "best_validation_loss": 0.030561433371915313,
+  "last_epoch": 30,
+  "target_epochs": 30,
+  "early_stopped": false,
+  "device": "cuda"
+}
