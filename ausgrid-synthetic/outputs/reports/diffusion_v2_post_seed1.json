@@ -1,0 +1,53 @@
+{
+  "arm": "diffusion_v2_post",
+  "seed": 1,
+  "fidelity_and_physics": {
+    "total_consumption_daily_kwh_wasserstein": 0.9252640850834372,
+    "total_consumption_daily_kwh_real_q95": 39.4767951965332,
+    "total_consumption_daily_kwh_synthetic_q95": 36.9365348815918,
+    "total_consumption_peak_interval_kwh_wasserstein": 0.06304329762274537,
+    "total_consumption_peak_interval_kwh_real_q95": 3.0969998836517334,
+    "total_consumption_peak_interval_kwh_synthetic_q95": 3.2455315589904785,
+    "total_consumption_median_profile_mae": 0.010667622089385986,
+    "total_consumption_q90_profile_mae": 0.09740624576807022,
+    "gross_generation_daily_kwh_wasserstein": 0.14563910893485912,
+    "gross_generation_daily_kwh_real_q95": 13.057000160217285,
+    "gross_generation_daily_kwh_synthetic_q95": 13.218505859375,
+    "gross_generation_peak_interval_kwh_wasserstein": 0.039642953294933,
+    "gross_generation_peak_interval_kwh_real_q95": 1.0750000476837158,
+    "gross_generation_peak_interval_kwh_synthetic_q95": 1.14545738697052,
+    "gross_generation_median_profile_mae": 0.004785688128322363,
+    "gross_generation_q90_profile_mae": 0.014017845503985882,
+    "gccl_gg_daily_total_correlation_real": 0.02750442855449713,
+    "gccl_gg_daily_total_correlation_synthetic": 0.007858539630138332,
+    "negative_values": 0,
+    "night_solar_gt_0p02_intervals": 0,
+    "night_solar_kwh": 0.0,
+    "night_intervals": 1370341,
+    "real_night_solar_gt_0p02_intervals": 0,
+    "real_night_solar_max_kwh": 0.006000000052154064
+  },
+  "utility": {
+    "synthetic_train_test_real_mae": 0.27604976296424866,
+    "real_train_test_real_mae": 0.2733165919780731,
+    "naive_test_real_mae": 0.28180834650993347,
+    "paired_mae_difference_household_mean": 0.002726790029555559,
+    "paired_mae_difference_95pct_ci": [
+      0.0014890367718180641,
+      0.004003576876129955
+    ],
+    "train_days_each": 30000,
+    "test_days": 65203
+  },
+  "disclosure_probe": {
+    "attack": "nearest synthetic profile, 16 dates per candidate, PCA-16",
+    "household_membership_auc": 0.5385185185185185,
+    "auc_95pct_bootstrap_ci": [
+      0.4595532407407407,
+      0.6209537037037032
+    ],
+    "member_households": 180,
+    "nonmember_households": 60,
+    "interpretation": "Exploratory attack on released daily samples; no privacy guarantee."
+  }
+}
