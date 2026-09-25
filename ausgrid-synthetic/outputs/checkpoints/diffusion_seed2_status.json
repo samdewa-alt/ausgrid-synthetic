@@ -1,0 +1,20 @@
+{
+  "seed": 2,
+  "last_epoch": 25,
+  "target_epochs": 25,
+  "early_stopped": false,
+  "best_validation": 0.07096910432327865,
+  "data_sha256": "5029a9413952e75b5e1bd82665aea23de8c56dc9fa4ea3d8d24b201930fa1b5e",
+  "config": {
+    "timesteps": 200,
+    "ddim_steps": 32,
+    "hidden": 256,
+    "depth": 3,
+    "batch_size": 512,
+    "learning_rate": 0.001,
+    "patience": 5,
+    "epochs": 25,
+    "transform": "log1p_energy_by_training_scale",
+    "model_version": 1
+  }
+}
