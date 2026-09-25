@@ -1,0 +1,9 @@
+{
+  "method": "daily_gccl_training_ecdf_ratio_tail_v1",
+  "data_sha256": "5029a9413952e75b5e1bd82665aea23de8c56dc9fa4ea3d8d24b201930fa1b5e",
+  "source_sha256": "6243ec510012dbed1e969faeaa39cdb587f67da668948f37432ca8bda0eefe6b",
+  "mapping_sha256": "e22bfa0aa3172c9eefc7d50e0a7f36c5d9058f1a1ac88eb16d0abda4047c5728",
+  "output_sha256": "83b3b19dfe3b98700b0fa82e9bc958bab4dcef8c06a7f5726ca56c6d4e8d4cbf",
+  "zero_source_days": 0,
+  "max_load_interval_kwh": 6.646728515625
+}
