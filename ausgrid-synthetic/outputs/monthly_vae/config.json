@@ -1,0 +1,83 @@
+{
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "years": [
+    2012,
+    2013,
+    2014
+  ],
+  "channels": [
+    "base_kwh",
+    "controlled_kwh",
+    "generation_kwh"
+  ],
+  "max_epochs": 120,
+  "patience": 18,
+  "batch_size": 256,
+  "hidden": 128,
+  "latent": 16,
+  "learning_rate": 0.001,
+  "kl_beta_final": 0.03,
+  "controlled_gate_loss_weight": 0.3,
+  "input_panel_sha256": "0041dd6ba813ee32cae7bb3d54eb7907a2da2787fdba5231041fc79a0d564d9c",
+  "input_splits_sha256": "0aed37714666bf505dbb34e0659b39a09327da4a130a46ef5899c69b00d2d109",
+  "scaler_mean_log1p_kwh": [
+    6.028457164764404,
+    2.4198875427246094,
+    1.9143224954605103
+  ],
+  "scaler_std_log1p_kwh": [
+    0.7849993109703064,
+    2.6244821548461914,
+    2.5486574172973633
+  ],
+  "training_lga_vocabulary": [
+    "ASHFIELD",
+    "AUBURN",
+    "BANKSTOWN",
+    "BOTANY BAY",
+    "BURWOOD",
+    "CANADA BAY",
+    "CANTERBURY",
+    "CESSNOCK",
+    "GOSFORD",
+    "HORNSBY",
+    "HUNTERS HILL",
+    "HURSTVILLE",
+    "KOGARAH",
+    "KU-RING-GAI",
+    "LAKE MACQUARIE",
+    "LANE COVE",
+    "LEICHHARDT",
+    "MAITLAND",
+    "MANLY",
+    "MARRICKVILLE",
+    "MOSMAN",
+    "MUSWELLBROOK",
+    "NEWCASTLE",
+    "NORTH SYDNEY",
+    "PITTWATER",
+    "PORT STEPHENS",
+    "RANDWICK",
+    "ROCKDALE",
+    "RYDE",
+    "SINGLETON",
+    "STRATHFIELD",
+    "SUTHERLAND",
+    "SYDNEY",
+    "UPPER HUNTER",
+    "WARRINGAH",
+    "WAVERLEY",
+    "WILLOUGHBY",
+    "WOOLLAHRA",
+    "WYONG"
+  ],
+  "training_seconds": {
+    "11": 14.6,
+    "23": 14.5,
+    "37": 14.7
+  }
+}

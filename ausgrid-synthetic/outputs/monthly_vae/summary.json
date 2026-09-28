@@ -1,0 +1,52 @@
+{
+  "mean_normalized_annual_w1_by_channel": [
+    {
+      "cohort": "non-solar",
+      "channel": "controlled_kwh",
+      "vae": null,
+      "resampling": null,
+      "vae_minus_resampling": null
+    },
+    {
+      "cohort": "non-solar",
+      "channel": "total_consumption_kwh",
+      "vae": 0.10843429668910749,
+      "resampling": 0.04079319398867443,
+      "vae_minus_resampling": 0.06764110270043305
+    },
+    {
+      "cohort": "solar",
+      "channel": "controlled_kwh",
+      "vae": null,
+      "resampling": null,
+      "vae_minus_resampling": null
+    },
+    {
+      "cohort": "solar",
+      "channel": "generation_kwh",
+      "vae": 0.12064031262863073,
+      "resampling": 0.04374877071918643,
+      "vae_minus_resampling": 0.0768915419094443
+    },
+    {
+      "cohort": "solar",
+      "channel": "total_consumption_kwh",
+      "vae": 0.07835593409550586,
+      "resampling": 0.12859915466921426,
+      "vae_minus_resampling": -0.050243220573708405
+    }
+  ],
+  "membership_auc_by_cohort": {
+    "non-solar": {
+      "mean": 0.5159489611672387,
+      "min": 0.5082357953090075,
+      "max": 0.5235533769591864
+    },
+    "solar": {
+      "mean": 0.4994110082304526,
+      "min": 0.47908179012345675,
+      "max": 0.5160725308641975
+    }
+  },
+  "note": "Nearest-neighbor membership AUC is one limited attack, not a privacy guarantee."
+}

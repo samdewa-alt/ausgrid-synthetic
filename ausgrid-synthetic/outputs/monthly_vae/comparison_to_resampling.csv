@@ -1,0 +1,6 @@
+cohort,channel,vae,resampling,vae_minus_resampling
+non-solar,controlled_kwh,,,
+non-solar,total_consumption_kwh,0.10843429668910749,0.04079319398867443,0.06764110270043305
+solar,controlled_kwh,,,
+solar,generation_kwh,0.12064031262863073,0.04374877071918643,0.0768915419094443
+solar,total_consumption_kwh,0.07835593409550586,0.12859915466921426,-0.050243220573708405
