@@ -1,0 +1,112 @@
+{
+  "source": "data/raw/monthly",
+  "panel_range": "2007-01 through 2014-12",
+  "baseline_range": "2012-01 through 2014-12",
+  "split_seed": 20260928,
+  "baseline_seeds": [
+    11,
+    23,
+    37
+  ],
+  "cohorts": {
+    "solar": {
+      "input_rows_all_dates": 1378654,
+      "rows_2007_2014": 1328637,
+      "customers": 2657,
+      "raw_months": 100,
+      "raw_first_month": "2007-01-01",
+      "raw_last_month": "2015-04-01",
+      "repeated_site_month_tariff_unit_rows": 196,
+      "material_negative_kwh_rows": 7,
+      "households_with_96_primary_day_records": 2409,
+      "months_missing_primary_days": 590,
+      "months_primary_days_not_calendar": 1162,
+      "months_missing_base_kwh": 590,
+      "months_missing_generation_records": 123613,
+      "usable_months": 130773
+    },
+    "non-solar": {
+      "input_rows_all_dates": 1163018,
+      "rows_2007_2014": 1115961,
+      "customers": 4064,
+      "raw_months": 100,
+      "raw_first_month": "2007-01-01",
+      "raw_last_month": "2015-04-01",
+      "repeated_site_month_tariff_unit_rows": 0,
+      "material_negative_kwh_rows": 4,
+      "households_with_96_primary_day_records": 4064,
+      "months_missing_primary_days": 0,
+      "months_primary_days_not_calendar": 0,
+      "months_missing_base_kwh": 0,
+      "months_missing_generation_records": 0,
+      "usable_months": 390140
+    }
+  },
+  "split_counts": {
+    "non-solar": {
+      "test": 609,
+      "train": 2845,
+      "validation": 610
+    },
+    "solar": {
+      "test": 398,
+      "train": 1860,
+      "validation": 399
+    }
+  },
+  "interval_overlap_counts": {
+    "train": 143,
+    "validation": 31,
+    "test": 30
+  },
+  "overlap_complete_2011_2013_by_split": {
+    "train": 113,
+    "test": 24,
+    "validation": 19
+  },
+  "overlap_complete_2012_2014": 0,
+  "eligible_counts": {
+    "non-solar": {
+      "test": 609,
+      "train": 2845,
+      "validation": 610
+    },
+    "solar": {
+      "test": 360,
+      "train": 1669,
+      "validation": 364
+    }
+  },
+  "baseline": {
+    "11": {
+      "train_donors": 4514,
+      "test_targets": 969,
+      "selection_modes": {
+        "lga_and_capacity": 290,
+        "capacity_only": 67,
+        "lga_only": 605,
+        "cohort_only": 7
+      }
+    },
+    "23": {
+      "train_donors": 4514,
+      "test_targets": 969,
+      "selection_modes": {
+        "lga_and_capacity": 290,
+        "capacity_only": 67,
+        "lga_only": 605,
+        "cohort_only": 7
+      }
+    },
+    "37": {
+      "train_donors": 4514,
+      "test_targets": 969,
+      "selection_modes": {
+        "lga_and_capacity": 290,
+        "capacity_only": 67,
+        "lga_only": 605,
+        "cohort_only": 7
+      }
+    }
+  }
+}
