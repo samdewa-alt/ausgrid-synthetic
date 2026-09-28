@@ -1,0 +1,13 @@
+{
+  "input_panel_sha256": "0041dd6ba813ee32cae7bb3d54eb7907a2da2787fdba5231041fc79a0d564d9c",
+  "input_splits_sha256": "0aed37714666bf505dbb34e0659b39a09327da4a130a46ef5899c69b00d2d109",
+  "validation_calibration_ids": 487,
+  "validation_evaluation_ids": 487,
+  "training_seconds": {
+    "11": 16.2,
+    "23": 16.0,
+    "37": 16.0
+  },
+  "protocol": "Only train and validation trajectories; test data not loaded. Calibration factors fitted on validation calibration half; comparisons on validation evaluation half. Shared checkpoints used whole validation for early stopping.",
+  "privacy_note": "Exploratory single nearest-neighbor membership probe; AUC near 0.5 is no release guarantee."
+}
